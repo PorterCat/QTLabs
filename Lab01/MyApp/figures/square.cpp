@@ -1,19 +1,19 @@
-#include "includes/square.h"
+#include "../includes/FiguresLib.h"
 
 namespace Figures
 {
     Square::Square(double length)
     {
-        _length = length;
+        this->length = length;
     }
 
     double Square::area() const
     {
-        return _length * _length;
+        return this->length * this->length;
     }
 
     double Square::get_length()
     {
-        return _length;
+        return this->length;
     }
 }
