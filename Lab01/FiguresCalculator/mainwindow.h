@@ -35,6 +35,12 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_action_triggered();
+
+    void on_action_2_triggered();
+
+    void on_action_3_triggered();
+
 private:
     Ui::MainWindow *ui;
     Figures::Shape selectedShape;

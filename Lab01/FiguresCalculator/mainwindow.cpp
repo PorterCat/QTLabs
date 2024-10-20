@@ -221,3 +221,18 @@ void MainWindow::on_pushButton_2_clicked()
     }
 }
 
+void MainWindow::on_action_triggered()
+{
+    on_pushButton_2_clicked();
+}
+
+void MainWindow::on_action_2_triggered()
+{
+    on_pushButton_3_clicked();
+}
+
+void MainWindow::on_action_3_triggered()
+{
+    on_pushButton_4_clicked();
+}
+
